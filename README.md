@@ -9,7 +9,7 @@
 5. 브랜치로 checkout 후, 열심히 commit 을 올린다.
 6. 작업을 다 마치면, 자신의 개인 레포지토리로 Push 한 후 구름톤유니브 레포지토리의 main 브랜치로 PR 을 보낸다.
 - 방향 : 구름톤 main branch <- 나의 feature/~~ branch
-
+aaaa
 ## Issue 작성 방법
 Issue 탬플릿을 만들어두었으니, Issue 를 달 때 사용하시면 됩니다
 
