@@ -476,5 +476,13 @@ public class FundingService {
         bannerJpaRepository.save(banner);
 
         }
-    }
 
+
+    public void updateFundingStatus() {
+        List<Funding> fundings = fundingJpaRepository.findAll();
+
+        for ( Funding funding : fundings ) {
+            funding.updateStatus();
+        }
+    }
+}
